@@ -278,10 +278,10 @@ for metric in ["accuracy","loss"]:
 ### Actual output
 
 
-![Actual plotted output from cell 8](05_transfer_learning_detection_cell08_0.png)
+![Actual plotted output from cell 8](https://github.com/user-attachments/assets/58f1a517-3c5e-4744-9c75-e3c8a92c51c0)
 
 
-![Actual plotted output from cell 8](05_transfer_learning_detection_cell08_1.png)
+![Actual plotted output from cell 8](https://github.com/user-attachments/assets/b36057da-a632-4717-8537-71f69d2332c7)
 
 
 ## Cell 9: Prepare real detection annotations
@@ -508,7 +508,7 @@ for result in predictions:
 ### Actual output
 
 
-![Actual plotted output from cell 11](05_transfer_learning_detection_cell11_12.png)
+![Actual plotted output from cell 11](https://github.com/user-attachments/assets/b7039aee-a071-44cb-af58-daac3e5c259d)
 
 
 ```text
