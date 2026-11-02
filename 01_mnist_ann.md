@@ -96,7 +96,7 @@ plt.matshow(x_train[1])
 ### Actual output
 
 
-![Actual plotted output from cell 4](01_mnist_ann_cell04_1.png)
+![Actual plotted output from cell 4](https://github.com/user-attachments/assets/f4b3e1fd-6a5a-4156-8b30-8489b7971904)
 
 
 ## Cell 5: Display inverted grayscale
@@ -114,7 +114,7 @@ plt.show()
 ### Actual output
 
 
-![Actual plotted output from cell 5](01_mnist_ann_cell05_0.png)
+![Actual plotted output from cell 5](https://github.com/user-attachments/assets/c5b4bcf2-21a7-4695-b53c-6349dd4bf67d)
 
 
 ## Cell 6: Normalize pixels
@@ -410,7 +410,7 @@ plt.show()
 ### Actual output
 
 
-![Actual plotted output from cell 11](01_mnist_ann_cell11_0.png)
+![Actual plotted output from cell 11](https://github.com/user-attachments/assets/d2c31fb5-508b-4311-b48e-6bf3c504c144)
 
 
 ## Cell 12: Inspect training data compactly
@@ -482,7 +482,7 @@ print(predicted_value[n])
 ### Actual output
 
 
-![Actual plotted output from cell 14](01_mnist_ann_cell14_5.png)
+![Actual plotted output from cell 14](https://github.com/user-attachments/assets/6a31acdf-46ec-432a-a5ac-5c4848d1e184)
 
 
 ```text
@@ -519,7 +519,7 @@ plt.show()
 ### Actual output
 
 
-![Actual plotted output from cell 15](01_mnist_ann_cell15_0.png)
+![Actual plotted output from cell 15](https://github.com/user-attachments/assets/fd06ed84-58fc-472c-8726-54566e6e4f27)
 
 
 ## Cell 16: Plot loss
@@ -545,4 +545,4 @@ plt.show()
 ### Actual output
 
 
-![Actual plotted output from cell 16](01_mnist_ann_cell16_0.png)
+![Actual plotted output from cell 16](https://github.com/user-attachments/assets/2ca0c7b7-c37d-4a9b-80bb-759c25d2f8ae)
