@@ -1,5 +1,14 @@
 # DL - SPPU BE Information Technology practical preparation
 
+## Choose the version
+
+- [clean_notebooks/](clean_notebooks/): the exact code originally shared, in the original cell order, with outputs cleared. Only notebook files and only code cells. No fixes, added setup, split cells or substituted data.
+- [with_explanations/](with_explanations/): the same exact original code plus explanations inside notebooks and matching Markdown notes. Outputs are cleared; these exact originals have not been freshly execution-verified.
+- Files at the repository root below are the **separate revised/tested versions**, not exact originals. They contain the documented fixes and, for practical 05, public dataset substitutions. Their saved outputs belong to those revisions only.
+
+Exact-original practical 05 still refers to another computer's Windows dataset paths. It needs the matching dataset and path setup before it can run; no run claim is made for that unchanged source. Historical output numbers in original code comments are not newly measured results.
+
+
 Five runnable Python notebooks, each paired with Markdown containing the same cell-wise code, explanations and actual outputs. Prepared and freshly executed on 2 November 2026 for study and viva preparation.
 
 ## Start here
@@ -8,7 +17,7 @@ Five runnable Python notebooks, each paired with Markdown containing the same ce
 2. Download its matching `.ipynb`, upload it to Google Colab, connect a Python runtime and select **Runtime > Run all**.
 3. Run from the first cell in a fresh runtime. The saved outputs are evidence of the recorded run; run again to produce your own outputs. Internet is required for datasets and pretrained weights on first use. CPU works; no paid GPU is required.
 
-These notebooks passed fresh top-to-bottom execution with Python 3.10 and TensorFlow CPU 2.16.1. They were **not executed inside the hosted Google Colab service**. Colab's preinstalled versions can change, so that service-specific check is not claimed. `requirements.txt` records the tested package versions for a separate Python environment; do not blindly replace all Colab packages. The fifth notebook installs its optional detection dependency when absent. If Colab asks for a restart after installation, restart, then Run all.
+These notebooks passed fresh top-to-bottom execution with Python 3.10 and TensorFlow CPU 2.16.1. The revised ANN, CNN, autoencoder and CBOW versions additionally passed genuine hosted Google Colab CPU runs on TensorFlow 2.21.0 on 2 November 2026. The revised fifth notebook's current hosted check is still in progress: its original optional install pins stalled on Python 3.13. Do not use that old install command manually. A setup-only correction is being tested separately and is not part of the exact-original folders. `requirements.txt` records the tested package versions for a separate Python environment; do not blindly replace all Colab packages. The fifth notebook installs its optional detection dependency when absent. If Colab asks for a restart after installation, restart, then Run all.
 
 | Practical | Notebook | Cell-wise notes | Fresh run |
 | --- | --- | --- | --- |
