@@ -15,17 +15,17 @@ Fresh top-to-bottom Python 3.10 / TensorFlow 2.16.1 CPU execution passed on 2 No
 Run in Colab: upload the `.ipynb`, connect a Python runtime and select **Runtime > Run all**. Run cells in order; do not run training cells before data/setup. Numeric results and timings may vary.
 
 
+## Hosted Colab compatibility check
+
+The separately revised notebook passed all 5+5 MobileNetV2 epochs and 10 YOLO11n epochs on hosted free CPU, Python 3.13.18 / TensorFlow 2.21.0 / PyTorch 2.11.0 on 2 November 2026 after the setup-only correction below. Hosted classification test accuracy before/after fine-tuning: 0.4333333373 / 0.5666666627. Hosted detection mAP50: 0.7634677419; mAP50-95: 0.6154127377; final example: 0 retained boxes at confidence 0.25. These tiny-data metrics are demonstration results, not reliable benchmarks. Except for setup, the actual outputs and plots below remain from the recorded local run; exact numbers vary by runtime. The exact-original folders are untouched and are not covered by this revised-run claim.
+
 ## Cell 1: Check optional dependencies
 
-Install Ultralytics only if unavailable, keeping NumPy below 2 for TensorFlow 2.16 compatibility. Colab provides TensorFlow, NumPy and Matplotlib. First-time installation and downloads require internet; restart the runtime if package changes ask for it.
+For Google Colab, install only the tested Ultralytics package without downgrading its included NumPy, OpenCV, TensorFlow or PyTorch. The previous numpy<2/opencv<4.12 pins stalled on current Python 3.13. This replacement setup and the remaining revised cells passed a genuine hosted Colab CPU run on Python 3.13.18 / TensorFlow 2.21.0 / PyTorch 2.11.0 on 2 November 2026. The setup output below is from that hosted run; other saved outputs/plots remain the separately recorded Python 3.10 / TensorFlow 2.16.1 run. In a separate local environment use the recorded requirements rather than --no-deps alone. Internet is needed for downloads.
 
 
 ```python
-# Install only if imports fail. Do not reinstall Colab TensorFlow.
-import importlib.util, subprocess, sys
-if importlib.util.find_spec("ultralytics") is None:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "ultralytics==8.3.40", "numpy<2", "opencv-python<4.12"])
-print("Dependencies available")
+import sys, subprocess; print(sys.version, flush=True); subprocess.check_call([sys.executable, '-m', 'pip', 'install', '--no-deps', 'ultralytics==8.3.40']); print('Dependencies available')
 ```
 
 
