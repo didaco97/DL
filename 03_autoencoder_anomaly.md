@@ -509,7 +509,7 @@ plt.show()
 ### Actual output
 
 
-![Actual plotted output from cell 16](03_autoencoder_anomaly_cell16_0.png)
+![Actual plotted output from cell 16](https://github.com/user-attachments/assets/941b38de-e3a5-4b4d-bd74-918d00493181)
 
 
 ## Cell 17: Plot error distributions
@@ -549,4 +549,4 @@ plt.show()
 ### Actual output
 
 
-![Actual plotted output from cell 17](03_autoencoder_anomaly_cell17_0.png)
+![Actual plotted output from cell 17](https://github.com/user-attachments/assets/4ba4b802-184b-457a-bd66-9908bcb4a051)
