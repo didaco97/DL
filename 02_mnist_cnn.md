@@ -163,7 +163,7 @@ plt.show()
 ### Actual output
 
 
-![Actual plotted output from cell 7](02_mnist_cnn_cell07_0.png)
+![Actual plotted output from cell 7](https://github.com/user-attachments/assets/10bcc8c9-1d82-40b7-a95f-19dc78df53a5)
 
 
 ## Cell 8: Add the channel dimension
@@ -461,7 +461,7 @@ plt.show()
 ### Actual output
 
 
-![Actual plotted output from cell 13](02_mnist_cnn_cell13_40.png)
+![Actual plotted output from cell 13](https://github.com/user-attachments/assets/ffcf3fa9-4a7d-4d35-a78a-1d7d7d6db231)
 
 
 ```text
@@ -553,7 +553,7 @@ plt.show()
 ### Actual output
 
 
-![Actual plotted output from cell 15](02_mnist_cnn_cell15_0.png)
+![Actual plotted output from cell 15](https://github.com/user-attachments/assets/e0ca1e1a-dba5-433f-8c51-e0f59bbc8584)
 
 
 ## Cell 16: Print its predicted digit
