@@ -181,7 +181,7 @@ Output: cleared. No fresh-run result is claimed for this original code.
 
 ### Original code cell 14
 
-Select another test image. squeeze removes the singleton channel axis for a clear grayscale display.
+Select a random test image and display X_test[n] exactly as shared. It retains the singleton channel dimension; the separate revised version uses squeeze for display.
 
 ```python
 n=random.randint(0,9999)
