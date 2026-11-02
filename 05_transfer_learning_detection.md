@@ -10,7 +10,7 @@ Sources: https://keras.io/api/datasets/cifar10/ and https://docs.ultralytics.com
 
 ## Execution check
 
-Fresh top-to-bottom Python 3.10 / TensorFlow 2.16.1 CPU execution passed on 2 November 2026. Not executed inside the hosted Google Colab service. Every code cell completed without a Python error. Warnings and limitations are discussed below. The notebook retains executed outputs.
+Fresh top-to-bottom Python 3.10 / TensorFlow 2.16.1 CPU execution passed on 2 November 2026. That recorded local run is separate from the hosted Colab verification described next. Every code cell completed without a Python error. Warnings and limitations are discussed below. The notebook retains executed outputs.
 
 Run in Colab: upload the `.ipynb`, connect a Python runtime and select **Runtime > Run all**. Run cells in order; do not run training cells before data/setup. Numeric results and timings may vary.
 
