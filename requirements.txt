@@ -1,0 +1,12 @@
+# Tested separate Python 3.10 CPU environment, not a required Colab reinstall.
+tensorflow-cpu==2.16.1
+numpy==1.26.4
+matplotlib==3.10.9
+pandas==2.3.3
+scikit-learn==1.7.2
+ultralytics==8.3.40
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
+opencv-python==4.10.0.84
+Pillow==12.3.0
+PyYAML==5.4.1
